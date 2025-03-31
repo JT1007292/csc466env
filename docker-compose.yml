@@ -42,7 +42,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: 2.0
+          cpus: 6.0
 
   compute02:
     init: true
@@ -59,7 +59,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: 2.0
+          cpus: 6.0
       
   compute03:
     init: true
@@ -76,7 +76,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: 2.0
+          cpus: 6.0
 
   compute04:
     init: true
@@ -93,7 +93,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: 2.0
+          cpus: 6.0
 networks:
   compute:
     name: compute
